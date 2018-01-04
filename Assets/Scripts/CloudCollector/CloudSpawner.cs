@@ -65,8 +65,6 @@ public class CloudSpawner : MonoBehaviour {
             int random = Random.Range(0, collectables.Length);
             if (nubes[i].tag != "Deadly")
             {
-
-                print("ENTRA AQUI, EN LA CREACION DE UNA NUBE NO DEADLY");
                 if (!collectables[random].activeInHierarchy)
                 {
                     Vector3 temp2 = nubes[i].transform.position;
@@ -82,15 +80,11 @@ public class CloudSpawner : MonoBehaviour {
                     }
                     else
                     {
-                        print("ENTRA AQUI, EN LA CREACION DE MONEDAS");
+              
                         collectables[random].transform.position = temp2;
                         collectables[random].SetActive(true);
                     }
                 }
-            }
-            else
-            {
-                print("SON NUBES DEADLY");
             }
         }
     }

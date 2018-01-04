@@ -21,13 +21,17 @@ public class PlayerBounds : MonoBehaviour {
 	void Update () {
         if (this.transform.position.x < minX)
         {
+            print("ENTRA AQUI, CUANDO SE VA POR LA IZQUIERDA");
             Vector3 temp = transform.position;
+            temp.x = minX;
             this.transform.position = temp;
         }
 
         if (this.transform.position.x > maxX)
 		{
+            print("ENTRA AQUI, CUANDO SE VA POR LA DERECHA");
 			Vector3 temp = transform.position;
+            temp.x = maxX;
 			this.transform.position = temp;
 		}
 

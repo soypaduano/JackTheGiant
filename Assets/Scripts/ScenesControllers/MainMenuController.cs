@@ -16,6 +16,7 @@ public class MainMenuController : MonoBehaviour {
 	}
 
     public void StartGame() {
+        Game_Manager.instance.SetGameStartedFromMainMenu(true);
         SceneManager.LoadScene("escenaJuego");
     }
 

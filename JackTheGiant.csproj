@@ -117,6 +117,9 @@
     <Compile Include="Assets\Scripts\CloudCollector\CloudCollector.cs" />
     <Compile Include="Assets\Scripts\CloudCollector\CloudSpawner.cs" />
     <Compile Include="Assets\Scripts\CollectableScript\CollectableScript.cs" />
+    <Compile Include="Assets\Scripts\Game_Manager.cs" />
+    <Compile Include="Assets\Scripts\GameplayController.cs" />
+    <Compile Include="Assets\Scripts\GamePreferences.cs" />
     <Compile Include="Assets\Scripts\PlayeScripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayeScripts\PlayerBounds.cs" />
     <Compile Include="Assets\Scripts\PlayeScripts\PlayerScore.cs" />

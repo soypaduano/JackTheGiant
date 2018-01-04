@@ -13,7 +13,7 @@ public class CollectableScript : MonoBehaviour {
         /*
          * Cuando el objeto entra en Enable, despues de 6 segundos se vuelve inactivo.  
          */
-        Invoke("DestroyCollectable", 6f);
+        //Invoke("DestroyCollectable", 6f);
         
     }
 }
